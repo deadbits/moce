@@ -4,6 +4,12 @@ Fully local retrieval-augmented-generation powered by Mixtral, Ollama, Embedchai
 
 ## Setup
 
+### Install Ollama
+
+[Download and install Ollama](https://ollama.ai/library/dolphin-mixtral)
+
+The [embedchain config](data/config.yaml) uses [dolphin-mixtral](https://ollama.ai/library/dolphin-mixtral) by default, but you can swap this out for any other model.
+
 ### Clone the repository
 
 ```bash
