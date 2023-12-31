@@ -1,6 +1,6 @@
 # moce 🌺🤖
 
-Simple, fully local retrieval-augmented-generation powered by Ollama, Emedchain, and Chainlit.
+Simple, fully local retrieval-augmented-generation powered by Ollama, Embedchain, and Chainlit.
 
 * **LLM:** [dolphin-mixtral](https://ollama.ai/library/dolphin-mixtral)
 * **Inference:** [Ollama](https://ollama.ai/)
