@@ -1,6 +1,6 @@
 app:
   config:
-    name: 'mixtral-streamlit'
+    name: 'moce'
 
 llm:
   provider: ollama
