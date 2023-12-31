@@ -1,0 +1,26 @@
+app:
+  config:
+    name: 'mixtral-streamlit'
+
+llm:
+  provider: ollama
+  config:
+    model: 'dolphin-mixtral'
+    temperature: 0.5
+    max_tokens: 2048
+    top_p: 1
+    stream: true
+
+embedder:
+  provider: huggingface
+  config:
+    model: 'sentence-transformers/all-mpnet-base-v2'
+
+vectordb:
+  provider: chroma
+  config:
+    collection_name: 'mrag0'
+    host: 0.0.0.0
+    port: 8000
+    allow_reset: true
+
