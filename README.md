@@ -25,6 +25,12 @@ git clone https://github.com/deadbits/moce.git
 cd moce
 ```
 
+### Setup Python virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ### Install Python requirements
 
 ```bash
