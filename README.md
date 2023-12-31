@@ -60,6 +60,7 @@ chainlit run moce.py --port 8888
 |-------------|-------------------------------------------------------|
 | /add <url>       | add new document to the knowledge base           |
 | /kb              | return last 25 documents added to knowledge base |
+| /help            | display this table                               |
 | *                | all other input is chat                          |
 
 ### Add Data

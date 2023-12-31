@@ -12,11 +12,12 @@ Simply start a conversation with me by asking a question or sharing a document w
 ```
 
 ### Chat Commands
-| **command** | **action**                                       |
-|-------------|--------------------------------------------------|
-| /add        | add new document to the knowledge base           |
-| /kb         | return last 25 documents added to knowledge base |
-| *           | all other input is chat                          |
+| **command** | **action**                                            |
+|-------------|-------------------------------------------------------|
+| /add <url>       | add new document to the knowledge base           |
+| /kb              | return last 25 documents added to knowledge base |
+| /help            | display this table                               |
+| *                | all other input is chat                          |
 
 ***
 
