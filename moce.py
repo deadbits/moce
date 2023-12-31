@@ -100,7 +100,17 @@ async def main(message: cl.Message):
 
     user_message = message.content
 
-    if user_message.startswith('/add'):
+    if user_message.startswith('/help'):
+        markdown_content = "| Command | Description |\n| --- | --- |\n"
+        markdown_content += "| /add | Add a document to the knowledge base |\n"
+        markdown_content += "| /kb | Display the knowledge base |\n"
+        markdown_content += "| /help | Display the available commands |\n"
+        markdown_content += "| * | Chat with the AI |\n"
+        await cl.Message(
+            content=markdown_content
+        ).send()
+
+    elif user_message.startswith('/add'):
         data = user_message.replace('/add', '').strip()
         db = cl.user_session.get('db')
 
