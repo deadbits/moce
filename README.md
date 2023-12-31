@@ -2,11 +2,11 @@
 
 Simple, fully local retrieval-augmented-generation powered by Ollama, Emedchain, and Chainlit.
 
-* **LLM:** Mixtral
-* **Inference:** Ollama
-* **Web UI:** Chainlit
-* **RAG & Chat:** Embedchain
-* **Vector DB:** Chroma
+* **LLM:** [dolphin-mixtral](https://ollama.ai/library/dolphin-mixtral)
+* **Inference:** [Ollama](https://ollama.ai/)
+* **Web UI:** [Chainlit](https://chainlit.io/)
+* **RAG & Chat:** [Embedchain](https://embedchain.ai/)
+* **Vector DB:** [Chroma](https://www.trychroma.com/)
 
 ![chainlit ui](data/assets/chainlit_ui.png)
 
@@ -74,8 +74,3 @@ You can start a conversation by asking a question or sharing a document with the
 ### View KB
 Document names added to your knowledge base are tracked in `data/indexed.json`.
 The `/kb` command will return the last 25 document names.
-
-### Powered By
-* https://ollama.ai/
-* https://embedchain.ai/
-* https://chainlit.io/
