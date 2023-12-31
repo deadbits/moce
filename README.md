@@ -47,7 +47,7 @@ export HUGGINGFACE_API_TOKEN="hf_..."
 ### Start ChromaDB Docker
 ```bash
 docker pull chromadb/chroma
-docker run -p 8000:8000 chromadb/chroma
+docker run -d -p 8000:8000 chromadb/chroma
 ```
 
 ## Run
