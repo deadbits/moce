@@ -50,11 +50,11 @@ chainlit run moce.py --port 8888
 ```
 
 ### Chat Commands
-| **command** | **action**                                       |
-|-------------|--------------------------------------------------|
-| /add        | add new document to the knowledge base           |
-| /kb         | return last 25 documents added to knowledge base |
-| *           | all other input is chat                          |
+| **command** | **action**                                            |
+|-------------|-------------------------------------------------------|
+| /add <url>       | add new document to the knowledge base           |
+| /kb              | return last 25 documents added to knowledge base |
+| *                | all other input is chat                          |
 
 ### Add Data
 You can start a conversation by asking a question or sharing a document with the `/add` command.
