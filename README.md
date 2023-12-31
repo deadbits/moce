@@ -1,2 +1,4 @@
-# mixtral-eccl
-Local retrieval-augmented-generation with Mixtral, Embedchain, and Chainlit
+# MOCE
+Local retrieval-augmented-generation powered by Mixtral, Ollama, Chainlit, Embedchain (MOCE)
+
+##
