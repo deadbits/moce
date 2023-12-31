@@ -1,6 +1,14 @@
 # moce 🌺🤖
 
-Fully local retrieval-augmented-generation powered by Mixtral, Ollama, Embedchain, ChromaDB, and Chainlit.
+Simple, fully local retrieval-augmented-generation powered by Ollama, Emedchain, and Chainlit.
+
+* **LLM:** Mixtral
+* **Inference:** Ollama
+* **Web UI:** Chainlit
+* **RAG & Chat:** Embedchain
+* **Vector DB:** Chroma
+
+![chainlit ui](data/assets/chainlit_ui.png)
 
 ## Setup
 
